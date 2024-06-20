@@ -1,0 +1,134 @@
+/* General footer styles */
+.footer__container {
+    width: 100%;
+    background-color: #FFE26E;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Items container */
+.footer__items__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+/* Help and Contact Us sections remain unchanged */
+.footer__help__container,
+.footer__contact__container {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer__help__header h1,
+.footer__contact__header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer__help__links,
+.footer__contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.help__link,
+.footer__contact {
+    margin: 10px 0;
+}
+
+.footer__help__links a,
+.footer__contacts span {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+/* Social media section specific styles */
+.footer__social__link__container {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer__social__link__header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__social__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social__links li {
+    margin: 0 10px;
+}
+
+.footer__social__links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.footer__social__links a:hover {
+    color: #555;
+}
+
+/* Copyright, Terms, and Privacy */
+.footer__copyright__container {
+    background-color: #333;
+    color: #FFE26E;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer__copyright,
+.footer__terms__condition,
+.footer__privacy__policy {
+    margin: 0 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .footer__items__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__help__container,
+    .footer__contact__container,
+    .footer__social__link__container {
+        margin: 20px 0;
+    }
+
+    .footer__social__links a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__help__header h1,
+    .footer__contact__header h1,
+    .footer__social__link__header h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer__help__links a,
+    .footer__contacts span,
+    .footer__social__links a {
+        font-size: 0.9rem;
+    }
+
+    .footer__social__links a {
+        margin: 0 5px;
+    }
+}
