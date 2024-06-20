@@ -1,19 +1,19 @@
 {
-  "name": "AlfiinAkash",
+  "name": "shema",
   "version": "1.0.0",
-  "description": "AlfinAkash MERN Stack Ecommerce application",
+  "description": "Shema MERN Stack Ecommerce application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlfinAkash/private.git"
+    "url": "git+https://github.com/Bereky/shema-mern-ecommerce.git"
   },
-  "author": "alfin",
+  "author": "Bereket Lemma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlfinAkash/private/issues"
+    "url": "https://github.com/Bereky/shema-mern-ecommerce/issues"
   },
-  "homepage": "https://github.com/AlfinAkash/private#readme"
+  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme"
 }
